@@ -2,6 +2,23 @@
   "name": "class-without-call-parent-constructor",
   "version": "1.0.0",
   "description": "create class skip call parent constructor",
+  "keywords": [
+    "create",
+    "class",
+    "extend",
+    "parent",
+    "super",
+    "invoke",
+    "constructor"
+  ],
+  "homepage": "https://github.com/bluelovers/class-without-call-parent-constructor#readme",
+  "bugs": {
+    "url": "https://github.com/bluelovers/class-without-call-parent-constructor/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/class-without-call-parent-constructor.git"
+  },
   "license": "MIT",
   "author": "bluelovers",
   "main": "dist/index.js",
