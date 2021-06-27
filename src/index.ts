@@ -6,6 +6,9 @@ export function createNewTargetObject<T extends IConstructor>(createNew: T): Ins
   return Object.create(createNew.prototype)
 }
 
+/**
+ * @see https://stackoverflow.com/a/61541378/4563339
+ */
 export function classWithoutCallParentConstructor<T extends IConstructor>(parentClass: T): new () => InstanceType<T>
 {
   return class extends parentClass
