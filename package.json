@@ -1,6 +1,6 @@
 {
   "name": "class-without-call-parent-constructor",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "create class skip call parent constructor",
   "keywords": [
     "create",
