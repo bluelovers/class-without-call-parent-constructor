@@ -1,6 +1,6 @@
 {
   "name": "class-without-call-parent-constructor",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "create class skip call parent constructor",
   "keywords": [
     "create",
@@ -42,7 +42,7 @@
     "start": "tsdx watch",
     "lint": "tsdx lint",
     "test": "tsdx test --passWithNoTests",
-    "build": "npm run build && npm run build:dts",
+    "build": "yarn run build:tsdx && yarn run build:dts",
     "build:dts": "dts-bundle-generator -o ./dist/index.d.ts ./src/index.ts --no-banner",
     "build:tsdx": "tsdx build --target node",
     "npm:publish": "yarn run preversion && npm publish && yarn run postpublishOnly",

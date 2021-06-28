@@ -25,6 +25,10 @@ function _assertThisInitialized(self) {
 function createNewTargetObject(createNew) {
   return Object.create(createNew.prototype);
 }
+/**
+ * @see https://stackoverflow.com/a/61541378/4563339
+ */
+
 function classWithoutCallParentConstructor(parentClass) {
   return /*#__PURE__*/function (_parentClass) {
     _inheritsLoose(_class, _parentClass);
