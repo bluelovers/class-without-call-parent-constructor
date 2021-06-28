@@ -39,6 +39,7 @@
     "!**/__snapshots__/*"
   ],
   "scripts": {
+    "ci:install": "yarn add tsdx@npm:@bluelovers/tsdx",
     "start": "tsdx watch",
     "lint": "tsdx lint",
     "test": "tsdx test --passWithNoTests",
