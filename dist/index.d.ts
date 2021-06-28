@@ -5,3 +5,5 @@ export declare function createNewTargetObject<T extends IConstructor>(createNew:
  */
 export declare function classWithoutCallParentConstructor<T extends IConstructor>(parentClass: T): new () => InstanceType<T>;
 export default classWithoutCallParentConstructor;
+
+export {};
