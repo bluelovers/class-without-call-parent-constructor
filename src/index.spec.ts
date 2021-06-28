@@ -21,6 +21,8 @@ describe(`describe`, () =>
 
 			return "A.parentMethod()"
 		}
+
+		static kk = 1
 	}
 
 	test(`@ts-expect-error`, () =>
@@ -38,6 +40,11 @@ describe(`describe`, () =>
 		// @ts-ignore
 		expect(() => new A).toThrowError();
 		expect(() => new B).toThrowError();
+
+		expect(B).toHaveProperty('kk', 1);
+
+		// for typescript check
+		(B.kk).toString();
 
 	});
 
@@ -67,6 +74,11 @@ describe(`describe`, () =>
 		expect(actual.parentMethod()).toStrictEqual('A.parentMethod()')
 		expect(actual.childMethod()).toStrictEqual('B.childMethod()')
 
+		expect(B).toHaveProperty('kk', 1);
+
+		// for typescript check
+		(B.kk).toString();
+
 	});
 
 	test(`createNewTargetObject`, () =>
@@ -95,6 +107,11 @@ describe(`describe`, () =>
 
 		expect(actual.parentMethod()).toStrictEqual('A.parentMethod()')
 		expect(actual.childMethod()).toStrictEqual('B.childMethod()')
+
+		expect(B).toHaveProperty('kk', 1);
+
+		// for typescript check
+		(B.kk).toString();
 
 	});
 
