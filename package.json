@@ -1,6 +1,6 @@
 {
   "name": "class-without-call-parent-constructor",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "create class skip call parent constructor",
   "keywords": [
     "create",
@@ -49,8 +49,7 @@
     "npm:publish": "yarn run preversion && npm publish && yarn run postpublishOnly",
     "npm:publish:bump": "yarn-tool version && yarn run preversion && npm publish && yarn run postpublishOnly",
     "npm:publish:lerna": "lerna publish --yes --bump patch",
-    "preversion": "npm run build && npm run test",
-    "prepare": "tsdx build",
+    "preversion": "yarn run build && yarn run test",
     "prepublishOnly_": "yarn run prepublishOnly:check-bin && yarn run prepublishOnly:update && yarn run test",
     "prepublishOnly:check-bin": "ynpx --quiet @yarn-tool/check-pkg-bin",
     "prepublishOnly:update": "yarn run ncu && yarn run sort-package-json",
