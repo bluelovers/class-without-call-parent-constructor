@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.3](https://github.com/bluelovers/class-without-call-parent-constructor/compare/class-without-call-parent-constructor@2.0.2...class-without-call-parent-constructor@2.0.3) (2021-07-01)
+
+**Note:** Version bump only for package class-without-call-parent-constructor
+
+
+
+
+
 ## [2.0.2](https://github.com/bluelovers/class-without-call-parent-constructor/compare/class-without-call-parent-constructor@2.0.1...class-without-call-parent-constructor@2.0.2) (2021-06-30)
 
 
