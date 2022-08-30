@@ -1,6 +1,6 @@
 // @noUnusedParameters: false
 
-import classWithoutCallParentConstructor, { createNewTargetObject } from './index';
+import { classWithoutCallParentConstructor, createNewTargetObject } from './index';
 
 describe(`describe`, () =>
 {

@@ -1,0 +1,2 @@
+"use strict";function createNewTargetObject(t){return Object.create(t.prototype)}function classWithoutCallParentConstructor(t){return class extends t{constructor(){return createNewTargetObject(new.target)}}}Object.defineProperty(exports,"__esModule",{value:!0}),exports.classWithoutCallParentConstructor=classWithoutCallParentConstructor,exports.createNewTargetObject=createNewTargetObject,exports.default=classWithoutCallParentConstructor;
+//# sourceMappingURL=index.cjs.production.min.cjs.map

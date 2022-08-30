@@ -16,5 +16,5 @@ function classWithoutCallParentConstructor(parentClass) {
 
 exports.classWithoutCallParentConstructor = classWithoutCallParentConstructor;
 exports.createNewTargetObject = createNewTargetObject;
-exports.default = classWithoutCallParentConstructor;
-//# sourceMappingURL=class-without-call-parent-constructor.cjs.development.js.map
+exports["default"] = classWithoutCallParentConstructor;
+//# sourceMappingURL=index.cjs.development.cjs.map
